@@ -1,0 +1,110 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imconfig.h
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui.cpp
+imgui.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui.h
+imgui_internal.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_internal.h
+ctype.h
+-
+stdlib.h
+-
+stdio.h
+-
+limits.h
+-
+stddef.h
+-
+stdint.h
+-
+stb_textedit.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_textedit.h
+windows.h
+-
+imm.h
+-
+imgui_user.inl
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_user.inl
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui.h
+imconfig.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+imgui_user.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_user.h
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_draw.cpp
+imgui.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui.h
+imgui_internal.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_internal.h
+stdio.h
+-
+malloc.h
+-
+stdlib.h
+-
+alloca.h
+-
+stb_rect_pack.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_rect_pack.h
+stb_truetype.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_truetype.h
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_internal.h
+stdio.h
+-
+math.h
+-
+stb_textedit.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_textedit.h
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_rect_pack.h
+stdlib.h
+-
+assert.h
+-
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_textedit.h
+string.h
+-
+
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_truetype.h
+stb_truetype.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_truetype.h
+stdio.h
+-
+stb_truetype.h
+/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_truetype.h
+math.h
+-
+math.h
+-
+math.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+memory.h
+-
+

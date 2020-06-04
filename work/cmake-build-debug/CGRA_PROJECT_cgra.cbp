@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CGRA_PROJECT_cgra"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\vendor\;CMake Files\vendor\glew\;CMake Files\vendor\glfw\;CMake Files\vendor\glfw\src\;CMake Files\vendor\glm\;CMake Files\vendor\glm\cmake\;CMake Files\vendor\glm\glm\;CMake Files\vendor\glm\test\;CMake Files\vendor\glm\test\bug\;CMake Files\vendor\glm\test\core\;CMake Files\vendor\glm\test\gtc\;CMake Files\vendor\glm\test\gtx\;CMake Files\vendor\imgui\;CMake Files\src\;CMake Files\res\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/glfw/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/glfw/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/vendor/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cgra">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/cgra" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGRA_SRCDIR=&quot;/Users/camm_rose/Documents/CGRA251/Assignment 4/work&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 cgra"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cgra/fast">
+				<Option output="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin/cgra" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGRA_SRCDIR=&quot;/Users/camm_rose/Documents/CGRA251/Assignment 4/work&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/include"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm"/>
+					<Add directory="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 cgra/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/camm_rose/Documents/CGRA251/Assignment\ 4/work/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/cmake-build-debug/vendor/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/Boid.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/Boid.h">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/Lattice.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/Lattice.h">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/Predator.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/Predator.h">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/imgui_impl_glfw_gl3.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/imgui_impl_glfw_gl3.h">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/matrix.hpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/mesh.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/mesh.hpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/shader.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/cgra/shader.hpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/ex.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/ex.h">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/main.cpp">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/opengl.h">
+			<Option target="cgra"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/include/GL/glew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/include/GL/glxew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/include/GL/wglew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/src/glew.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/iokit_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/iokit_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/mach_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imconfig.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/imgui_internal.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/stb_textedit.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/CMake/CGRACompiler.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/CMake/CGRAFunctions.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glew\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glew\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\glm\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\glm\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\bug\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\bug\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\core\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\core\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\gtc\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\gtc\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\gtx\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/glm/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\gtx\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/vendor/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\imgui\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/camm_rose/Documents/CGRA251/Assignment 4/work/res/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
